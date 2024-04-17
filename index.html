@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins',sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(191, 191, 248);
+            font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+        .firstsection > div{
+            width: 30%;
+        }
+        .leftsection{
+            font-size: 2rem;
+        }
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightsection img{
+            width: 80%;
+        }
+        .purple{
+            color: rgb(146, 58, 230);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: rgb(146, 58, 230);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondsection h1{
+            font-size: 1.8rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 50px 84px;
+        }
+        .secondsection .box{
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .img-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+            
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        .footer{
+            background-color: #0e0e1a;
+            height: 233px;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Tushar's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">Tushar</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Dawnload Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="img/bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done So far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="img/developer.png" alt="">
+                    <div class="vertical-title"> HTML Developer - Pintrest (2010-2012)</div>
+                <div class="vertical-desc">
+                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus exercitationem asperiores numquam ab ad blanditiis doloribus sequi in maxime, repellat ipsa. Maiores praesentium rerum, possimus facere itaque enim natus iusto?
+                </div>
+            </div>
+            
+            <div class="vertical">
+                <img class="img-top" src="img/instagram.png" alt="">
+                <div class="vertical-title"> Node.ls Developer - Facebook (2012-2016)</div>
+            <div class="vertical-desc">
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus exercitationem asperiores numquam ab ad blanditiis doloribus sequi in maxime, repellat ipsa. Maiores praesentium rerum, possimus facere itaque enim natus iusto?
+            </div>
+        </div>
+
+        <div class="vertical">
+            <img class="img-top" src="img/twitter.png" alt="">
+            <div class="vertical-title"> HTML Developer -Instagram (2016-2019)</div>
+        <div class="vertical-desc">
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus exercitationem asperiores numquam ab ad blanditiis doloribus sequi in maxime, repellat ipsa. Maiores praesentium rerum, possimus facere itaque enim natus iusto?
+        </div>
+    </div>
+
+    <div class="vertical">
+        <img class="img-top" src="img/youtube.png" alt="">
+        <div class="vertical-title">
+             Software Developer - youtube (2019-2024)
+            </div>
+            
+    <div class="vertical-desc">
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus exercitationem asperiores numquam ab ad blanditiis doloribus sequi in maxime, repellat ipsa. Maiores praesentium rerum, possimus facere itaque enim natus iusto?
+    </div>
+</div>
+
+    <div class="vertical">
+        <img class="img-top" src="img/instagram.png" alt="">
+        <div class="vertical-title"> HTML Developer - Instagram (2023-2024)</div>
+    <div class="vertical-desc">
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus exercitationem asperiores numquam ab ad blanditiis doloribus sequi in maxime, repellat ipsa. Maiores praesentium rerum, possimus facere itaque enim natus iusto?
+    </div>
+</div>
+
+                <div class="vertical"> </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Tushar's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Careers</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Whatsapp</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Ghazipur</li>
+                    <li>Uttar Pradesh - 233001</li>
+                    <li>000-0000-000</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright © tushar'sportfolio | All rights reserved
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', '&amp; Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
